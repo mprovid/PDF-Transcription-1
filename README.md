@@ -10,11 +10,11 @@ This is a simple Python script that will take PDF files from a designated folder
 ### Configuration
 - You should inspect the Python code in **app2.py** before running it on your PC. It should make sense to you and you should know what it's doing.
 - the **config.py** file and the **app2.py** file should be in the same folder.
-- You will need the edit the **config.py** file. It will contain your **Google Gemini API key** (don't share that) and you will set your source and target folders. The folders set in the config.py file demonstate syntax but it is unlikely that those file locations exist on your PC.
+- You will need the edit the **config.py** file. It will contain your **Google Gemini API key** (don't share that) and you will need to set your source and target folders. The folder locations set in the **config.py** file demonstate python file location syntax but it is unlikely that those file locations exist on your PC.
 ### Run the Batch
-1. Open VS Studio.
+1. Open **VS Studio**.
 2. Open **app2.py** in VS Studio.
-3. Click the run button at the top right.
+3. Click the **run button** at the top right.
 4. Look for your .txt transcriptions in your target folder.
 ## Next Steps
 As time and help permits, this application can become a more functional tool. Right now, this is just a demo with a very simple prompt and limited functionality.
