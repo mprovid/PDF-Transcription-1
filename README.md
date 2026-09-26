@@ -3,7 +3,7 @@
 This is a simple Python script that will take PDF files from a designated folder and turn them into text transcriptions saved to a designated folder.
 ## How to Use This Script:
 ### Applications
-1. Install a code editor / run environment like **VS Studio** [https://code.visualstudio.com/]
+1. Install a code editor / integrated development environment like **VS Studio** [https://code.visualstudio.com/]
 2. Install **Python** (this was built with Python 3.14) [https://www.python.org/]
 3. Install **PyMuPDF** [https://pymupdf.readthedocs.io/en/latest/]
 4. Get your own **Google Gemini API key** (the free one works in September 2026) [https://aistudio.google.com/api-keys]
