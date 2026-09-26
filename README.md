@@ -17,4 +17,6 @@ This is a simple Python script that will take PDF files from a designated folder
 3. Click the run button at the top right.
 4. Look for your .txt transcriptions in your target folder.
 ## Next Steps
-As time and help permits, this application can become a more functional tool. Right now, this is just a demo with very simple functionality.
+As time and help permits, this application can become a more functional tool. Right now, this is just a demo with a very simple prompt and limited functionality.
+
+(9/26/2026)
