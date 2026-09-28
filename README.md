@@ -20,6 +20,6 @@ This is a simple Python script that will take PDF files from a designated folder
 As time and help permits, this application can become a more functional tool. Right now, this is just a demo with a very simple prompt and limited functionality.
 ### Known Issues
 - The script needs to be modified with a more robust transcription prompt. The current one merely demonstrates the script produces a result.
-- The transcription reports an error if the API does not respond. This leaves gaps in the transcription. The script needs to be modified so tat it pauses when there is an error due to momentary non-response from the API. The script should retry without reporting if a successful retry happens within a certain number of attempts. Errors should be logged only if the system is fully non-responsive over multiple tries. Error gaps in the current transcriptions are, usually, quickly followed by a successful attempt at the next text block.
+- The transcription reports an error if the API does not respond. This leaves gaps in the transcription. The script needs to be modified so that it pauses when there is an error due to momentary non-response from the API. The script should retry without reporting if a successful retry happens within a certain number of attempts. Errors should be logged only if the system is fully non-responsive over multiple tries. Error gaps in the current transcriptions are, usually, quickly followed by a successful attempt at the next text block.
 
 (9/26/2026)
