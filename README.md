@@ -1,7 +1,7 @@
 # PDF Transcription (stage 1)
 ## What This Is:
 This is a simple Python script that will take PDF files from a designated folder and turn them into text transcriptions saved to another designated folder.
-## How to Use This Script:
+## How to Use This Script: 
 ### Applications
 1. Install a code editor / integrated development environment like **VS Studio** [https://code.visualstudio.com/]
 2. Install **Python** (this was built with Python 3.14) [https://www.python.org/]
