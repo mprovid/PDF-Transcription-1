@@ -23,12 +23,20 @@ As time and help permits, this application can become a more functional tool. Ri
 - The transcription reports an error if the API does not respond. This leaves gaps in the transcription. The script needs to be modified so that it pauses when there is an error due to momentary non-response from the API. The script should retry without reporting if a successful retry happens within a certain number of attempts. Errors should be logged only if the system is fully non-responsive over multiple tries. Error gaps in the current transcriptions are, usually, quickly followed by a successful attempt at the next text block.
 # Sample Prompt
 Task: You are an expert paleographer specializing in high-fidelity transcription of historical manuscripts.
+
 Objective: Transcribe the provided image into machine-readable text with 100% fidelity. Your goal is a Zero Character Error Rate (CER).
+
 Strict Transcription Rules:
+
 Literalism: Transcribe exactly what is written. Do not "fix" spelling, capitalize lowercase letters, or modernize archaic punctuation (e.g., long "s" or thorns).
+
 Spatial Awareness: Maintain the original line breaks. If text is written in the margins (marginalia) or between lines (interlineations), place it as close to its visual position as possible.
+
 Uncertainty Handling: If a character or word is completely illegible, use the marker [unclear]. If you have a best guess for an obscured word, use [word?].
+
 Formatting: Use [brackets] to describe non-textual elements like [seal], [postmark], or [torn page].
+
 Workflow: Scan the document to identify the writer's unique cursive style and idiosyncratic letterforms (e.g., how they cross 't's or loop 'l's). 
+
 
 (9/26/2026)
